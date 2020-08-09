@@ -4,6 +4,92 @@ $dkbl: hsl(214, 17%, 51%);
 $grybl: hsl(212, 23%, 69%);
 $ltgrbl: hsl(210, 46%, 95%);
 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: $ltgrbl;
+  font-size: 13px;
+  font-family: 'Manrope', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: $darkgb;
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+}
+
 h1 {
+  text-align: center;
   font-family: 'Manrope', sans;
+  font-size: 13px;
+  color: $darkgb;
+}
+
+section {
+  width: 80%;
+  margin: 50px auto;
+  border-radius: 1em;
+  background: #ffffff;
+  padding-bottom: 10px;
+}
+
+article {
+  width: 90%;
+  margin: 25px auto;
+  color: $darkgb;
+}
+
+.round {
+  border-radius: 1em 1em 0 0;
+}
+
+h2 {
+  font-family: 'Manrope', sans;
+  font-size: 15px;
+  font-weight: 700;
+  color: $darkgb;
+}
+
+.attr {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.share {
+  width: 90%;
+  z-index: 2;
+  display: none;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.avatar {
+  border-radius: 80%;
+  width: 50px;
+}
+
+.namedate {
+  flex-grow: 1;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.icon {
+  z-index: 3;
+  border-radius: 80%;
+  padding: 10px;
+  background: $ltgrbl;
 }
